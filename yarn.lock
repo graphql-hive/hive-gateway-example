@@ -2284,11 +2284,11 @@
     urlpattern-polyfill "^10.0.0"
 
 "@whatwg-node/fetch@^0.10.0", "@whatwg-node/fetch@^0.10.1":
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/@whatwg-node/fetch/-/fetch-0.10.1.tgz#ca08b2b9928a465f6e562d6cc460840340c15d14"
-  integrity sha512-gmPOLrsjSZWEZlr9Oe5+wWFBq3CG6fN13rGlM91Jsj/vZ95G9CCvrORGBAxMXy0AJGiC83aYiHXn3JzTzXQmbA==
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@whatwg-node/fetch/-/fetch-0.10.3.tgz#b19883b8a1568c5ae09abd550589ec597e685f4b"
+  integrity sha512-jCTL/qYcIW2GihbBRHypQ/Us7saWMNZ5fsumsta+qPY0Pmi1ccba/KRQvgctmQsbP69FWemJSs8zVcFaNwdL0w==
   dependencies:
-    "@whatwg-node/node-fetch" "^0.7.1"
+    "@whatwg-node/node-fetch" "^0.7.7"
     urlpattern-polyfill "^10.0.0"
 
 "@whatwg-node/node-fetch@^0.5.23", "@whatwg-node/node-fetch@^0.5.7":
@@ -2301,15 +2301,13 @@
     fast-querystring "^1.1.1"
     tslib "^2.6.3"
 
-"@whatwg-node/node-fetch@^0.7.1":
-  version "0.7.5"
-  resolved "https://registry.yarnpkg.com/@whatwg-node/node-fetch/-/node-fetch-0.7.5.tgz#b81e9d5f4b9032e480032c73e7bac284c4e3bdb8"
-  integrity sha512-t7kGrt2fdfNvzy1LCAE9/OnIyMtizgFhgJmk7iLJwQsLmR7S86F8Q4aDRPbCfo7pISJP6Fx/tPdfFNjHS23WTA==
+"@whatwg-node/node-fetch@^0.7.7":
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/@whatwg-node/node-fetch/-/node-fetch-0.7.7.tgz#6c1752e2e16cfac93fdef2ef4f852b7a50dd15ed"
+  integrity sha512-BDbIMOenThOTFDBLh1WscgBNAxfDAdAdd9sMG8Ff83hYxApJVbqEct38bUAj+zn8bTsfBx/lyfnVOTyq5xUlvg==
   dependencies:
-    "@kamilkisiela/fast-url-parser" "^1.1.4"
     "@whatwg-node/disposablestack" "^0.0.5"
     busboy "^1.6.0"
-    fast-querystring "^1.1.1"
     tslib "^2.6.3"
 
 "@whatwg-node/server-plugin-cookies@^1.0.3":

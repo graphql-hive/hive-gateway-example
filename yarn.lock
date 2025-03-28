@@ -3272,14 +3272,14 @@
     json5 "^2.2.0"
     lodash.sortby "^4.7.0"
 
-"@theguild/federation-composition@^0.12.1":
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/@theguild/federation-composition/-/federation-composition-0.12.1.tgz#d60d50d1dd3370a8049868337d58a2e9a385a920"
-  integrity sha512-TeoOpwqxgZL4rNFOtXy09ME156MXGOissRhqMkqEHk5nyPM2vnfnDv+d93GpLev8qxGOA2MD4X7Ml1vTXw2pYw==
+"@theguild/federation-composition@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@theguild/federation-composition/-/federation-composition-0.17.0.tgz#22264bf6a11956d4b8b101a1f428b392d928c972"
+  integrity sha512-0VRb52XcMaag1yCo0kjk1UcUMkovae+a49TN+5sGb5Uy+QzLKSRivZvTg8RRhrt+d8YubNSzwFdwkgoxTsl6VQ==
   dependencies:
-    constant-case "^3.0.0"
+    constant-case "^3.0.4"
     debug "4.3.4"
-    json5 "^2.2.0"
+    json5 "^2.2.3"
     lodash.sortby "^4.7.0"
 
 "@types/body-parser@*":
@@ -3938,7 +3938,7 @@ concurrently@^8.2.2:
     tree-kill "^1.2.2"
     yargs "^17.7.2"
 
-constant-case@^3.0.0:
+constant-case@^3.0.0, constant-case@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/constant-case/-/constant-case-3.0.4.tgz#3b84a9aeaf4cf31ec45e6bf5de91bdfb0589faf1"
   integrity sha512-I2hSBi7Vvs7BEuJDr5dDHfzb/Ruj3FyvFyh7KLilAjNQw3Be+xgqUBA2W6scVEcL0hL1dwPRtIqEPVUCKkSsyQ==

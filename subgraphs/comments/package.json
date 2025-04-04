@@ -8,8 +8,8 @@
   "dependencies": {
     "@apollo/server": "4.11.3",
     "@apollo/subgraph": "2.10.0",
-    "@graphql-mesh/hmac-upstream-signature": "1.2.23",
-    "graphql": "16.9.0"
+    "@graphql-mesh/hmac-upstream-signature": "1.2.25",
+    "graphql": "16.10.0"
   },
   "devDependencies": {
     "tsx": "^4.16.2",

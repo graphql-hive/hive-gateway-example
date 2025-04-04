@@ -8,10 +8,10 @@
   "dependencies": {
     "@apollo/subgraph": "^2.8.3",
     "@graphql-hive/cli": "0.49.1",
-    "graphql": "16.9.0",
+    "graphql": "16.10.0",
     "graphql-yoga": "5.13.2",
     "@graphql-mesh/plugin-jwt-auth": "1.5.2",
-    "@graphql-mesh/hmac-upstream-signature": "1.2.23"
+    "@graphql-mesh/hmac-upstream-signature": "1.2.25"
   },
   "devDependencies": {
     "tsx": "^4.16.2",

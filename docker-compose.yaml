@@ -1,7 +1,7 @@
 name: "hive-platform-demo"
 services:
   gateway:
-    image: ghcr.io/graphql-hive/gateway:1.13.5
+    image: ghcr.io/graphql-hive/gateway:1.16.3
     depends_on:
       - users_subgraph
       - comments_subgraph
@@ -73,7 +73,7 @@ services:
 
   # Jaeger (Telmetry)
   jaeger:
-    image: jaegertracing/all-in-one:1.68.0
+    image: jaegertracing/all-in-one:1.72.0
     environment:
       COLLECTOR_OTLP_ENABLED: true
     ports:
@@ -83,7 +83,7 @@ services:
       - graphql
 
   grafana:
-    image: grafana/grafana:10.4.17
+    image: grafana/grafana:10.4.19
     networks:
       - graphql
     ports:

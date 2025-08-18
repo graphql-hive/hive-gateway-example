@@ -6,7 +6,7 @@
     "start": "tsx index.ts"
   },
   "dependencies": {
-    "@apollo/server": "4.11.3",
+    "@apollo/server": "5.0.0",
     "@apollo/subgraph": "2.10.0",
     "@graphql-mesh/hmac-upstream-signature": "1.2.26",
     "graphql": "16.10.0"

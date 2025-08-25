@@ -12,7 +12,7 @@
     "start": "set -e && docker compose up -d --build --force-recreate --remove-orphans"
   },
   "resolutions": {
-    "graphql": "16.10.0"
+    "graphql": "16.11.0"
   },
   "engines": {
     "node": ">=22.0.0"

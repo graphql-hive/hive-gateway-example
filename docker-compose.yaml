@@ -58,7 +58,7 @@ services:
       - graphql
 
   prometheus:
-    image: prom/prometheus:v2.55.1
+    image: prom/prometheus:v3.10.0
     volumes:
       - "./docker-configs/prom/prometheus.yml:/etc/prometheus/prometheus.yml"
     ports:
